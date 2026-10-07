@@ -12,7 +12,7 @@ By analyzing interactions during the first half of a course, the goal is to buil
 ---
 
 ## Dataset
-This project utilizes the **Open University Learning Analytics Dataset (OULAD)**, which includes data on courses, student demographics, Virtual Learning Environment (VLE) engagement logs, and assessment scores across 32,593 students.
+This project utilizes the **Open University Learning Analytics Dataset (OULAD)**, which includes data on courses, student demographics, Virtual Learning Environment (VLE) engagement logs, and assessment scores across 32,000 students.
 
 The pipeline processes and aggregates data across seven relational CSV tables:
 - `studentInfo.csv` — Demographics & final results
