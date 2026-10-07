@@ -29,7 +29,7 @@ The pipeline processes and aggregates data across seven relational CSV tables:
 - **Missing Value Imputation:** Handled missing data logically across tables (e.g., median imputation for registration dates, filling missing assessment scores with `0` to denote non-submission, and setting missing VLE click counts to `0`).
 - **Deduplication:** Filtered data to retain each student's latest course attempt to remove redundant records.
 
-### 2. Feature Engineering (First-Half Activity Window)
+### 2. Feature Engineering
 To ensure practical early-warning predictions, features were engineered strictly using data from the **first half** of each module presentation:
 - **`score`**: Mean assessment score accumulated in the first half.
 - **`weight`**: Total weight of completed assessments in the first half.
